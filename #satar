@@ -1,0 +1,21 @@
+def number_book(number=input('Enter the phone number : ')):
+    if number >=1111111111 and number<10000000000 and type(number)== int:
+       if number==1111111111:
+        print('Amal')
+       elif number==2222222222:
+           print("Mohammed")
+       elif number==3333333333:
+           print("Khadijah")
+       elif number ==4444444444:
+           print("Abdullah")
+       elif number ==5555555555:
+           print("Rawan")
+       elif number ==6666666666:
+            print("Faisal")
+       elif number == 7777777777:
+           print("Layla")
+       else:
+         print('Sorry, the number is not found')
+    else:
+        print('this is invalid')
+        
